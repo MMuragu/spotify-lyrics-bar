@@ -128,7 +128,7 @@ Then run `bash install.sh` again and log out and back in.
 
 | Problem | Try this |
 |---|---|
-| **Nothing appears after install** | Log out and back in. `gnome-extensions info lyric-bar@local` should then say `ACTIVE`. |
+| **Nothing appears after install** | Log out,restart pc and back in. `gnome-extensions info lyric-bar@local` should then say `ACTIVE`. |
 | **"Extension doesn't exist"** | Same as above: GNOME only scans for new extensions at login. |
 | **Bar shows the song name but never lyrics** | The song has no synced lyrics in LRCLIB. This is common for new, small, or non-English releases. |
 | **Bar doesn't show at all, extension is `ACTIVE`** | Check the lyrics program is publishing: `cat ~/.cache/spotify-lyrics/state.json` should show `"active": true` while Spotify plays. If the file is missing or says `false`, you most likely have the Snap version of Spotify (see above). |

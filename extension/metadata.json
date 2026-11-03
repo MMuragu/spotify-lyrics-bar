@@ -1,0 +1,7 @@
+{
+  "uuid": "lyric-bar@local",
+  "name": "Spotify Lyrics Bar",
+  "description": "Shows the current Spotify lyric line in a bar at the bottom of the screen that reserves its own space, so windows never go under it.",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "version": 1
+}
